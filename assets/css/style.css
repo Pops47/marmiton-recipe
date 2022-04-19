@@ -1,83 +1,101 @@
-/* MAIN RULES */
+/* COMON RULES */
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: #efefef;
 }
-header {
-  background-color: white;
-  border-bottom: solid 1px #f3735f;
-}
-header img {
-  width: 200px;
-  object-fit: contain;
-  padding-top: 10px;
-}
 .container {
   width: 1024px;
   margin: 0 auto;
 }
-main {
-  margin-top: 50px;
-}
 section {
   background-color: white;
   padding: 60px 30px;
+  box-sizing: border-box;
   border-radius: 20px;
 }
 p {
   line-height: 22px;
   margin-bottom: 20px;
 }
-h1 {
-  font-size: 50px;
-  font-weight: 700;
-  text-align: center;
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+h1,
+h3 {
   color: #393c6c;
 }
-.baseline {
+h1 {
+  font-size: 50px;
   text-align: center;
-  font-size: 75%;
-  padding-top: 10px;
+}
+h2 {
+  font-size: 30px;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+/*HEADER*/
+header {
+  background-color: white;
+  border-bottom: solid 1px #f3735f;
+  height: 80px;
+  box-sizing: border-box;
+}
+header img {
+  width: 200px;
+  object-fit: contain;
+  margin-top: 24px;
+}
+/*MAIN*/
+.baseline {
+  color: #6c6c6c;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 20px;
 }
 .time {
   background-color: grey;
   color: white;
+  font-size: 22px;
+  font-weight: 700;
   text-align: center;
   width: 400px;
+  height: 45px;
   margin: 0 auto;
-  padding: 10px;
   border-radius: 10px;
+  padding-top: 22px;
 }
 main img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  margin-right: 20px;
   margin-top: 60px;
 }
-h2 {
-  font-size: 30px;
-  font-weight: 700;
-  color: #f3735f;
-  margin-top: 70px;
-  margin-bottom: 20px;
+.middle-image {
+  margin: 0 31px;
 }
 ul {
-  list-style: inside;
+  list-style: disc;
+  padding-left: 20px;
 }
-h3 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #393c6c;
-  line-height: 22px;
+main {
+  padding-top: 60px;
 }
+/*FOOTER*/
 footer {
-  height: 50px;
-  width: 100%;
-  padding: 50px 0;
+  height: 136px;
+  padding-top: 55px;
+  box-sizing: border-box;
 }
-.footer {
+footer p {
   text-align: center;
   font-size: 60%;
 }
